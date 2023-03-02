@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "binary_trees.h"
+#include "../binary_trees.h"
 
 /**
  * basic_tree - Build a basic binary tree
@@ -49,4 +49,3 @@ int main(void)
     printf("Is %d heap: %d\n", root->n, heap);
     return (0);
 }
-
